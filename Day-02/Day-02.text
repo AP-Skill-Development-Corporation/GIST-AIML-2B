@@ -44,6 +44,9 @@ Day-02[23-01-2024]:
         - It can be typecasted as dict()
         - Slicing can be done for values
         - It stores the data in ordered of a key
+        It can be created by using 2 methods they are:
+            - a = dict()
+            - p = {}
 
     Set:
     ====
@@ -54,7 +57,10 @@ Day-02[23-01-2024]:
         - It can be typecasted as set()
         - Slicing can't be done because of no index
         - It is muteable [changes a value]
-
+        It can be created by using 2 methods they are:
+            - k = set()
+            - g = {1}
+            
     String:
     =======
         - It can be enclosed with '," or ''' 
