@@ -1,0 +1,83 @@
+Day-02[23-01-2024]:
+===================
+    Good Morning All..
+
+    Python Data Structures:
+    =======================
+        - List
+        - Tuple
+        - Set
+        - String
+        - Dictionary
+
+    List:
+    =====
+        - It can be represented as "[]" and values are seperated with ,
+        - It stores all data type values
+        - It is Mutable[Changes the items]
+        - Slicing can be done because of index
+        - It stores data in ordered format
+        - It can be type casted as list()
+        - It allows duplicate values
+        It can be created by using 2 methods they are:
+            - b = list()
+            - h = [] 
+
+    Tuple:
+    ======
+        - It can be represented as "()" and values are seperated with ,
+        - It stores all data type elements
+        - It stores data in ordered format
+        - Slicing can be done because of index
+        - It is immuteable [It can't changes a value]
+        - It can be typecasted as tuple()
+        - It allows duplicate values
+        It can be created by using 2 methods they are:
+            - p = tuple()
+            - m = ()
+
+    Dictionary:
+    ===========
+        - It can be represented with "{}" without any value in it if it is then it should be in key and value pairs
+        - It stores the data in key and value pairs
+        - It allows duplicate values but not for keys
+        - It can be typecasted as dict()
+        - Slicing can be done for values
+        - It stores the data in ordered of a key
+
+    Set:
+    ====
+        - It can be represented as {'1'} with an existing value in it
+        - It doesnt allows duplicate values
+        - It stores all data types elements
+        - It stores data in unorderd format
+        - It can be typecasted as set()
+        - Slicing can't be done because of no index
+        - It is muteable [changes a value]
+
+    String:
+    =======
+        - It can be enclosed with '," or ''' 
+        - It stores all data type values
+        - It can be typecasted as str()
+        - Slicing can be done because of index
+        - It stores the data in single string item or a characters
+
+
+    Task:
+    =====
+        - Yesterdays Concepts on Django
+
+        Python Concept:
+        ===============
+            - OOPs concepts like class,method,object and constructor types
+            - Inheritance overview and its types
+
+        Django:
+        =======
+            - MVC and MVT Design Pattern
+
+        HTML:
+        =====
+            - HTML Tags
+            - Inline and blocked elements
