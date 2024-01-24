@@ -11,3 +11,10 @@ Web Development Using Django for 2nd year AIML-2B
 ## Day-02(23-01-2024):
   - Python Data Structures Overview like list,tuple,set,string and set
   - Function argument types (default,keyword,required and variable length) with sample examples on each
+
+## Day-03(24-01-2023):
+  - UserApp files Overview
+  - Packages and Modules with sample example on each
+  - Class,object and methods with importing of packages and modules
+  - Interface between urls and views
+  - Http request and response with an example
