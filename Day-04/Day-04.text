@@ -1,0 +1,19 @@
+Day-04[25-01-2024]:
+===================
+    Good Morning All..
+
+    Concepts:
+    =========
+        - Interface between urls and views with HttpResponse
+        - HttpResponse with string,html tag,html structure,css and javascript
+        - Interface between controller and template
+        - Data rendering from template to controller and then controller to another template
+
+    Task:
+    =====
+        
+        HTML:
+        =====
+            - html form control
+            - GET and POST differences
+            - OOPs concepts by using Bank Application
