@@ -18,3 +18,8 @@ Web Development Using Django for 2nd year AIML-2B
   - Class,object and methods with importing of packages and modules
   - Interface between urls and views
   - Http request and response with an example
+
+## Day-04(25-01-2024):
+  - HttpResponse with string,html tag,html structure,css and javascript with sample example on each
+  - Templates,Interface between controller to template with sample example
+  - Data rendering from controller to template and then controller to another template with sample example on each
