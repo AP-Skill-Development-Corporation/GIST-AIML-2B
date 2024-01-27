@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container-fluid mt-4">
+  {% if messages %}
+    {% for j in messages %}
+      <div class="alert alert-{{j.tags}} alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        {{j}}
+      </div>
+    {% endfor %}
+  {% endif %}
+  <div class="row">
+    <div class="card col-md-4 shadow-lg ml-2 border border-success">
+      <div class="card-body">
+        <h3>Create User</h3>
+        <form method="post">
+          {% csrf_token %}
+          {% for i in k %}
+            {{i}}
+          {% endfor %}
+          <div class="row">
+            <div class="col">
+              <input type="reset" value="Clear" class="btn btn-outline-danger form-control">
+            </div>
+            <div class="col">
+              <input type="submit" value="Create" class="btn btn-outline-success form-control">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="card col-md shadow-lg mx-2 border border-warning">
+      <div class="card-body">
+        <h3>User Data</h3>
+        <table class="table table-bordered table-hover">
+          <tr class="bg-dark text-light">
+            <th>Sno</th>
+            <th>Name</th>
+            <th>Actions</th>
+          </tr>
+          {% for i in h %}
+          <tr>
+            <td>{{forloop.counter}}</td>
+            <td>{{i.sname}}</td>
+            <td>
+              <div class="row">
+                <div class="col">
+                  <a href="" class="btn btn-outline-primary form-control">Edit</a>
+                </div>
+                <div class="col">
+                  <a href="" class="btn btn-outline-danger form-control">Delete</a>
+                </div>
+              </div></td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

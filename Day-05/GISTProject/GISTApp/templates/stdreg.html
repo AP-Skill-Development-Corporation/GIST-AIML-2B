@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Registration</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<script type="text/javascript" src="{% static 'js/sample.js' %}"></script>
+</head>
+<body>
+	<h2>Student Form</h2>
+	<form method="post">
+		{% csrf_token %}
+		<label>Roll Number: </label>
+		<input type="text" name="rn" placeholder="Roll Number"><br/><br/>
+		<label>Student Name: </label>
+		<input type="text" name="sn" placeholder="Student Name"><br/><br/>
+		<label>Year: </label>
+		<input type="number" name="sy" min=1 max=4><br/><br/>
+		<label>Branch: </label>
+		<select name="sb">
+			<option value='0'> -- Select Branch -- </option>
+			<option value='cse'>CSE</option>
+			<option value='ece'>ECE</option>
+			<option value='aiml'>AIML</option>
+			<option value='eee'>EEE</option>
+		</select><br/><br/>
+		<button type="reset">Clear</button>
+		<button type="submit">Create</button>
+	</form>
+</body>
+</html>
